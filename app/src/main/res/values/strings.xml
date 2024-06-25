@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Restaurant Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="base_url">http://192.168.71.241:8082</string>
+    <string name="web_url">http://192.168.1.32:3001</string>
+    <string name="web_socket">ws://192.168.1.32:1234</string>
+    <string name="add_menu_string"><font color='#FF0000'>*</font>Đặt cho những menu của bạn một tên gọi sẽ giúp bạn quản lý nhà hàng của mình dễ dàng hơn.
+                \nHãy đặt tên cho menu của bạn.</string>
+    <string name="add_table_string"><font color='#FF0000'>*</font>Một cái tên đẹp, độc lạ sẽ giúp nhà hàng của bạn thu hút sự chú ý với khách hàng hơn.
+                \n Hãy đặt tên cho bàn của bạn. \n Ví dụ: Sườn xào chua ngọt, Gà chiên mắm, Bivina,...</string>
+</resources>

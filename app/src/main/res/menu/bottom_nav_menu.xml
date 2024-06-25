@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/manager"
+        android:icon="@drawable/manager"
+        android:title="Quản lý"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order"
+        android:title="Đơn hàng"
+        android:icon="@drawable/order"/>
+
+    <item
+        android:id="@+id/home"
+        android:title="Trang chủ"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/noti"
+        android:title="Thông báo"
+        android:icon="@drawable/bell"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Hồ sơ"
+        android:icon="@drawable/baseline_account_circle_24"/>
+</menu>

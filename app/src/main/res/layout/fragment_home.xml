@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_beef"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EateryEase"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to EateryEase"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="EateryEase là một công ty hàng đầu trong lĩnh vực cung cấp dịch vụ quản lý nhà hàng, quán ăn và cà phê. Với sứ mệnh đơn giản hóa quy trình quản lý và tối ưu hóa hiệu suất kinh doanh, EateryEase mang đến giải pháp toàn diện từ việc quản lý đặt bàn, theo dõi doanh thu, quản lý kho hàng, cho đến việc phân tích dữ liệu khách hàng."
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Công ty tự hào với đội ngũ chuyên gia giàu kinh nghiệm, cung cấp dịch vụ tư vấn và hỗ trợ khách hàng không ngừng, đảm bảo rằng mọi quán ăn, nhà hàng hay cà phê đều có thể vận hành một cách trơn tru và hiệu quả. EateryEase không chỉ giúp đối tác tiết kiệm thời gian và chi phí mà còn giúp họ nâng cao trải nghiệm dịch vụ cho khách hàng của mình."
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</FrameLayout>

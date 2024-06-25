@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chicken"
+    tools:context=".Activity.AddEmployee"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="10dp"
+            android:background="#000">
+
+            <LinearLayout
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_left_svgrepo_com"
+                    android:gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/btnBackText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Quay lại"
+                    android:textColor="#F9FCFB"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Thêm nhân viên"
+                android:textColor="#F9FCFB"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu"
+                android:textColor="#F9FCFB"
+                android:textSize="15sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+
+                />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <EditText
+                android:id="@+id/nameEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ tên"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:padding="16dp"
+                android:textColor="#ddd"
+                android:textColorHint="#ddd"/>
+
+            <EditText
+                android:id="@+id/phoneEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Số điện thoại"
+                android:layout_below="@id/editTextPartnerCode"
+                android:layout_marginBottom="16dp"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:padding="16dp"
+                android:textColor="#ddd"
+                android:textColorHint="#ddd"/>
+
+            <EditText
+                android:id="@+id/usernameEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_below="@id/editTextSecretKey"
+                android:layout_marginBottom="16dp"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:padding="16dp"
+                android:textColor="#ddd"
+                android:textColorHint="#ddd"/>
+
+            <EditText
+                android:id="@+id/passEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:layout_below="@id/usernameEmployee"
+                android:minHeight="48dp"
+                android:padding="16dp"
+                android:textColor="#ddd"
+                android:textColorHint="#ddd"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

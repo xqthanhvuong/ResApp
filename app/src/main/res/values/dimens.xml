@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation_16">16dp</dimen>
+    <dimen name="elevation_4">4dp</dimen>
+    <dimen name="elevation_18">18dp</dimen>
+    <dimen name="height_25">25dp</dimen>
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_10">10dp</dimen>
+    <dimen name="elevation_18sp">18sp</dimen>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnTable"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageTable"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:elevation="8dp"
+        android:padding="10dp"
+        android:src="@drawable/table_has_person" />
+
+    <TextView
+        android:id="@+id/txtTableName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#ddd"
+        android:text="Bàn 2" />
+</LinearLayout>

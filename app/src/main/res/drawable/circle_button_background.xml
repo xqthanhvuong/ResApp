@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/drawable/circle_button_background.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+
+        <!-- Đặt màu nền cho hình tròn -->
+        <solid android:color="#FF5722" /> <!-- Màu nền (có thể thay đổi) -->
+
+        <!-- Đặt viền cho hình tròn (tùy chọn) -->
+        <stroke
+            android:width="2dp"
+            android:color="#FFFFFF" /> <!-- Màu viền (có thể thay đổi) -->
+    </shape>
+
+</selector>

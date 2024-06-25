@@ -1,0 +1,23 @@
+<!-- res/drawable/btn_plus_profile_with_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Viền ngoài màu trắng -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:radius="50dp"/>
+        </shape>
+    </item>
+    <!-- Nền của nút, điều chỉnh padding để chứa viền -->
+    <item android:left="4dp" android:right="4dp" android:top="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <size android:width="80dp"
+                android:height="80dp"/>
+            <solid android:color="#6DC5D1"/>
+            <corners android:radius="40dp"/>
+            <padding android:left="15dp"
+                android:top="15dp"
+                android:right="15dp"
+                android:bottom="15dp"/>
+        </shape>
+    </item>
+</layer-list>
